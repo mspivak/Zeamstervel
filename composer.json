@@ -1,0 +1,25 @@
+{
+    "name": "mauro/zeamstervel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mauro Spivak",
+            "email": "mauros@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "guzzlehttp/guzzle": "~5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/models"
+        ],
+        "psr-0": {
+            "Mauro\\Zeamstervel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
